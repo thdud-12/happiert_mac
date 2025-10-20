@@ -70,3 +70,16 @@ html > body {
 .header-top-banner a {
   color: #fff;
 }
+
+.top-bar {
+  height: 100px;
+  position: fixed;
+  top: 45px;
+  inset-inline: 0;
+}
+.top-bar .inner {
+  height: 100%;
+  padding-inline: 5rem;
+  display: flex;
+  align-items: center;
+}

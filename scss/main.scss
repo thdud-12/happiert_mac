@@ -91,3 +91,17 @@ $color-main: #be201f;
     color: #fff;
   }
 }
+
+.top-bar {
+  height: 100px;
+  position: fixed;
+  top: 45px;
+  inset-inline: 0;
+
+  .inner {
+    height: 100%;
+    padding-inline: 5rem;
+    display: flex;
+    align-items: center;
+  }
+}
