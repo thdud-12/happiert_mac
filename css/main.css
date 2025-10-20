@@ -107,3 +107,13 @@ html > body {
 .top-bar__menu-wrap .menu-link:hover::after {
   width: 100%;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  max-width: 300px;
+  max-height: 44px;
+}
