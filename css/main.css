@@ -55,3 +55,18 @@
 html > body {
   font-family: "Pretendard";
 }
+
+.header-top-banner {
+  position: fixed;
+  top: 0;
+  inset-inline: 0;
+  height: 40px;
+  background-color: #be201f;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-top-banner a {
+  color: #fff;
+}
